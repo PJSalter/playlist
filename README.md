@@ -70,12 +70,19 @@ JAMZ
 
     - Print a menu of options to manipulate the playlist.
     - Continue to execute the menu until the user enters 'q' to Quit.
-    - Options include: - `'a' - Add song` - `'d' - Remove song` - `'c' - Change position of song` - `'s' - Output songs by specific artist` - `'t' - Output total time of playlist (in seconds)` - `'o' - Output full playlist` - `'q' - Quit`
+    - Options include: 
+- `'a' - Add song` 
+- `'d' - Remove song`
+- `'c' - Change position of song` 
+- `'s' - Output songs by specific artist`
+- `'t' - Output total time of playlist (in seconds)` 
+- `'o' - Output full playlist` 
+- `'q' - Quit`
 
-           Example:
+Example:
 
            ```
-           JAMZ PLAYLIST MENU
+      JAMZ PLAYLIST MENU
 
       a - Add song
       d - Remove song
@@ -85,9 +92,9 @@ JAMZ
       o - Output full playlist
       q - Quit
 
-Choose an option:
+     Choose an option:
 
-     ```
+           ```
 
 3. Implement the "Output full playlist" menu option. If the list is empty, output: "Playlist is empty."
 
