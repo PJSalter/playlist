@@ -339,21 +339,3 @@ void PrintMenu(const string &playlistTitle)
 
     cin.clear(); // Clear any errors from the input stream
 }
-
-// void OutputFullPlaylist(PlaylistNode* head, const string& playlistTitle) {
-//     cout << playlistTitle << " - OUTPUT FULL PLAYLIST" << endl;
-//     if (head == nullptr) {
-//        cout << "Playlist is empty" << endl;
-//        return;
-//     }
-
-//     int position = 1;
-//     PlaylistNode* currentNode = head;
-//     while (currentNode != nullptr) {
-//        cout << position << ". ";
-//        currentNode->PrintPlaylistNode();
-//        cout << endl;
-//        currentNode = currentNode->GetNext();
-//        position++;
-//     }
-// }
